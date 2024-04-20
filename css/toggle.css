@@ -148,21 +148,28 @@
  }
 
  .clg-logo{
-    width: 100%;
+    width: 100vw;
     height: 95px;
     display: flex;
     background-color: #fff;
     position: relative;
+    align-items: center;
+   justify-content: center;
     z-index: 9000;
  }
+
+/* College logo top */
+
+
  .clg-left{
 
-   width: calc((100% - 110px) / 2);
+   width: 44%;
    display: flex;
    justify-content: center;
    align-items: center;
-font-size: 70px;
+font-size: 60px;
 font-weight: 500;
+
  }
  .only-img{
    display: none;
@@ -173,7 +180,7 @@ font-weight: 500;
  }
  .clg-right{
 
-   width: calc((100% - 190px) / 2);
+   width: 40%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -184,8 +191,8 @@ font-weight: 500;
    z-index: 5000;
  }
  .clg-logo img{
-    width: 110px;
-    height: 110px;
+    width: 110PX;
+    height: 110PX;
     /* position: relative;
     right: 32px;
     top: 23px; */
@@ -194,7 +201,7 @@ font-weight: 500;
     z-index: 3000;
  }
  .collap{
-    width: 100%;
+    width: 100vw;
  }
  .collap ul{
     display: flex;
@@ -318,7 +325,9 @@ text-decoration: underline;
     .collap{
        display: none;
     }
-
+    .clg-right{
+      width: 44%;
+    }
     .clg-logo img{
        width: 80px;
        height: 80px;
@@ -332,9 +341,10 @@ text-decoration: underline;
       background-color: #4683a3;
       position: relative;
       top: -2px;
-      height: 22px;
+      height: 32px;
       z-index: 2000;
     }
+
     .clg-logo img{
       width: 110px;
       height: 110px;
@@ -368,10 +378,12 @@ text-decoration: underline;
 
   }
   @media screen and (max-width: 444px){
-   .clg-logo{
+
+   .only-img{
       display: none;
    }
-   .only-img{
+
+   .clg-logo{
       display: none;
    }
    .min-clg-logo{

@@ -363,12 +363,12 @@ li#callbacks1_s0 {
 }
 
 /* College logo top */
-.clg-logo{
+/* .clg-logo{
    display: flex;
    align-items: center;
    justify-content: center;
    width: 100vw;
-}
+} */
 
 /* Sunandhit_Edits---------- */
 
@@ -534,7 +534,15 @@ li#callbacks1_s4 {
 }
 
 /* -------------------- */
+/* photos of Professors: */
+.team_row_center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
 
+/* --------------------- */
 
 #clgImagBackground{
    position: relative;
@@ -2179,6 +2187,19 @@ ol {
 h2.typoh2{
    margin: 0 0 10px;
 }
+
+@media screen and (max-width: 788px) {
+   .min-clg-logo{
+   border-bottom: 2px solid #4683a3;
+   }
+
+   .clg-right{
+   width: 41%;
+   }
+
+}
+
+
 @media (max-width:768px){
 .grid_5 {
    padding: 0 0 1em;
