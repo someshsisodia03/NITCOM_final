@@ -1,7 +1,7 @@
 
 *{
    user-select: none;
-   
+
 }
 body{
 width: 100%;
@@ -30,7 +30,7 @@ padding: 20px;
    padding: 0;
    -webkit-animation: scrollUp 10s ease-in-out infinite normal;
            animation: scrollUp 10s ease-in-out infinite normal;
- 
+
 }
 .box {
    height: 70px;
@@ -60,7 +60,7 @@ padding: 20px;
    font-size: 30px;
   }
  }
- 
+
 @-webkit-keyframes scrollUp {
    from {
      -webkit-transform: translateY(0);
@@ -69,10 +69,10 @@ padding: 20px;
    to {
      -webkit-transform: translateY(-80%);
              transform: translateY(-80%);
-            
+
    }
  }
- 
+
  @keyframes scrollUp {
    from {
      -webkit-transform: translateY(0);
@@ -361,6 +361,15 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 li#callbacks1_s0 {
    background: black;
 }
+
+/* College logo top */
+.clg-logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+}
+
 /* Sunandhit_Edits---------- */
 
 
@@ -400,7 +409,7 @@ table, th, td ,tr{
    box-shadow: 5px 5px grey;
 }
 #rules_list{
-   background:#fff0fd;
+   background:#fd99da;
    color: black;
    padding: 30px;
    z-index: 10;
