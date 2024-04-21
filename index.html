@@ -114,13 +114,23 @@
 				</div>
 					<div class="collap " >
 						<ul >
-							<li class="active "><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="committee.html">Committee</a></li>
-							<li><img src="./images/Rectangle 47 (1).png" alt="Image Not loaded" srcset="" height="60px"></li>
-							<li><a href="submision.html">Registration </a></li>
+							<div id="left_oval">
+								<li class="active "><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li id="commit_padding"><a href="committee.html">Committee</a></li>
+								<li id="reg_padding"><a href="submision.html">Registration </a></li>
+							 <li><a href="travel.html">Travel</a></li>
+							 <li><a href="contact.html">Contact Us</a></li>
+							</div>
+
+							<div id="oval_img"><img src="./images/Rectangle 47 (1).png" alt="Image Not loaded" srcset="" height="60px"></div>
+							<!-- <li></li> -->
+							<div id="right_oval">
+							<!-- <li ><a href="submision.html">Registration </a></li>
 							<li><a href="travel.html">Travel</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="contact.html">Contact Us</a></li> -->
+							</div>
+
 						</ul>
 
 				</div>
@@ -1899,17 +1909,15 @@
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
+
+				// var defaults = {
+				// containerID: 'toTop', // fading element id
+				// containerHoverID: 'toTopHover', // fading element hover id
+				// scrollSpeed: 1200,
+				// easingType: 'linear'
+				// };
 
 			$().UItoTop({ easingType: 'easeOutQuart' });
-
 		});
 	</script>
 	<!-- scrolling ends here -->

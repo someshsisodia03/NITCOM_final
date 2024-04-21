@@ -137,6 +137,7 @@
  .top-header{
     height: 50px;
     background-color: #4683a3;
+    overflow-x: hidden;
  }
  .btn-toggle{display: none;}
 
@@ -154,7 +155,7 @@
     background-color: #fff;
     position: relative;
     align-items: center;
-   justify-content: center;
+   justify-content: space-between;
     z-index: 9000;
  }
 
@@ -163,7 +164,7 @@
 
  .clg-left{
 
-   width: 44%;
+   width: 40%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -203,6 +204,37 @@ font-weight: 500;
  .collap{
     width: 100vw;
  }
+ #left_oval{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: absolute;
+   gap: 30px;
+ }
+ #commit_padding{
+   padding-right: 100px;
+ }
+ #reg_padding{
+   padding-left: 190px;
+ }
+
+ @media screen and (max-width : 866px) {
+   #reg_padding{
+      padding-left: 150px;
+   }
+   #commit_padding{
+      padding-right: 80px;
+    }
+ }
+ #right_oval{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: absolute;
+   gap: 30px;
+   right: 10%;
+
+ }
  .collap ul{
     display: flex;
     height: 65px;
@@ -216,7 +248,7 @@ font-weight: 500;
     top:-3px;
     border-bottom: 2px solid #c2c7c9;
     background-color: #3a789a;
-    padding-left: 103px;
+
  }
 
  .collap ul li{
@@ -293,16 +325,16 @@ text-decoration: underline;
 
     }
  @media screen and (max-width: 1018px) {
-   .collap ul{
+   /* .collap ul{
          padding-left: 80px;
-   }
+   } */
    .collap ul li a{
           font-size: 17px;
    }
  }
  @media screen and (max-width: 924px) {
    .collap ul{
-      padding-left: 78px;
+      /* padding-left: 78px; */
       gap: 15px;
 }
 .collap ul li a{
@@ -325,14 +357,14 @@ text-decoration: underline;
     .collap{
        display: none;
     }
-    .clg-right{
+    /* .clg-right{
       width: 44%;
-    }
+    } */
     .clg-logo img{
        width: 80px;
        height: 80px;
        top: 4px;
-       left: 5px;
+       /* left: 5px; */
     }
 
     .only-img{
@@ -377,7 +409,7 @@ text-decoration: underline;
    }
 
   }
-  @media screen and (max-width: 444px){
+  @media screen and (max-width: 453px){
 
    .only-img{
       display: none;
@@ -397,6 +429,7 @@ text-decoration: underline;
       height: 42px;
       font-size: 30px;
       font-weight: 600;
+      padding-top: 5px;
    }
    .min-clg-right{
       width: 90%;
@@ -414,7 +447,7 @@ text-decoration: underline;
   font-size: 60px;
 }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 985px) {
    .clg-left{
      font-size: 50px;
      font-weight: 500;
