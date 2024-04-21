@@ -294,7 +294,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 .title2 {
    font-size: 20px;
-       margin-top: -10px;
+
 }
 
 .w3layouts-logo h1 a {
@@ -2416,7 +2416,7 @@ text-decoration: underline;
 @media screen and (max-width: 1440px){
    .title2 {
            font-size: 20px;
-           margin-top: 25px;
+
    }
    .banner_text h3, .banner_text h2 {
        font-size: 6.5em;
@@ -2446,7 +2446,7 @@ text-decoration: underline;
 @media screen and (max-width: 1366px){
    .title2 {
        font-size: 20px;
-           margin-top: 25px;
+
    }
 
    .about, .services, .contact, .subscribe, .portfolio-agileinfo, .codes, .typography, .team-section, .aboutpage {
@@ -2699,7 +2699,7 @@ text-decoration: underline;
 @media screen and (max-width: 991px){
    .title2 {
            font-size: 16px;
-           margin-top: 45px;
+
    }
    .navbar-nav > li > a {
        font-size: .9em;
@@ -2805,7 +2805,7 @@ text-decoration: underline;
 @media screen and (max-width: 900px){
    .title2 {
            font-size: 16px;
-           margin-top: 90px;
+
    }
    .banner_text {
        padding: 14em 0 10em;
@@ -2824,7 +2824,7 @@ text-decoration: underline;
 
    .title2 {
            font-size: 16px;
-           margin-top: 105px;
+
    }
    .w3layouts-logo h1 {
        font-size: 32px;
@@ -2887,7 +2887,7 @@ text-decoration: underline;
    /* -------- */
    .title2 {
            font-size: 14px;
-           margin-top: 120px;
+
    }
 
    .navbar-default .navbar-toggle {
@@ -3011,7 +3011,7 @@ text-decoration: underline;
 @media screen and (max-width: 640px){
    .title2 {
            font-size: 12px;
-           margin-top: 190px;
+
    }
 
    .aboutimg img {
@@ -3149,7 +3149,7 @@ text-decoration: underline;
       font-size: 10px;
    }
 
-   
+
    #bronchure_span{
       font-size: 10px;
    }
@@ -3161,8 +3161,8 @@ text-decoration: underline;
    }
 
    #xyz6{
-      font-size: 8px;
-      line-height: 12px;
+      font-size: 12px;
+      line-height: 18px;
    }
    .aboutleft h3 {
        font-size: 18px;
@@ -3220,7 +3220,7 @@ text-decoration: underline;
 @media screen and (max-width: 480px){
    .title2 {
            font-size: 12px;
-           margin-top: 150px;
+
    }
 
    .about h3 {
