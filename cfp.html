@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <title>NITCOM 2025 - NIT Jalandhar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="./images/nitj_logo.png" type="image/x-icon">
+    <link href="css/jQuery.lightninBox.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- for portfolio lightninBox css -->
+
+    <!-- default css files -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/toggle.css">
+    <!-- default css files -->
+
+    <style>
+
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center vertically */
+    align-items: center;  /* Center horizontally */
+    text-align: center;  /* Ensure text is centered within elements */
+    height: 100%;  /* Ensure the div takes full height available */
+}
+
+.centered-text {
+    margin-bottom: 20px;  /* Space between the elements */
+}
+
+        @media screen and (max-width: 788px) {
+            .only-img {
+                height: 40px;
+                background-color: #4683a3;
+            }
+    
+            .min-clg-logo {
+                border-bottom: 2px solid #4683a3;
+            }
+        }
+    
+        body {
+            background-color: #f7f7f7; /* Lighter background for contrast */
+            font-family: 'Arial', sans-serif;
+        }
+    
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align items to the top */
+            align-items: flex-start; /* Align items to the left */
+           /* text-align: left;  Ensure text alignment to the left */
+            margin: 70px auto;
+            padding: 40px;
+            max-width: 1200px;  /* Maintain a reasonable max width */
+            height: auto;       /* Allow div to expand vertically as needed */
+            background-color: #ffffff;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            overflow: hidden;   /* Prevent overflow if the content is too long */
+        }
+    
+        .content-container h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+           /* text-align: left; /* Left-align the heading */
+            width: 100%;
+            white-space: nowrap; /* Ensures the heading stays in one line */
+            overflow: hidden;    /* Prevents text from overflowing */
+            text-overflow: ellipsis; /* Optional: Adds "..." if text overflows */
+        }
+    
+        .content-container h3 {
+            font-size: 2.5rem;
+            color: #444;
+            margin-bottom: 25px;
+            font-weight: 600;
+            text-align: left;  /* Align to the left */
+        }
+    
+        .content-container p {
+            font-size: 1.6rem; /* Increased font size */
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px; /* Increased margin */
+           /* text-align: left; /* Align paragraphs to the left */
+        }
+    
+        .content-container ul {
+            list-style-type: disc;
+            padding-left: 40px; /* Maintain list indentation */
+           /* text-align: left; /* Align list to the left */
+        }
+    
+        .content-container ul li {
+            margin-bottom: 20px; /* Maintain spacing for readability */
+            font-size: 1.5rem; /* Maintain font size */
+            color: #444;
+        }
+    
+        .content-container a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+        .content-container a:hover {
+            text-decoration: underline;
+        }
+    
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        footer .footer-icon {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+    
+        footer .footer-icon a {
+            color: white;
+            font-size: 2.2rem;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+    
+        footer .footer-icon a:hover {
+            color: #da9d40;
+        }
+    
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .content-container {
+                padding: 20px;
+                margin: 20px;
+                align-items: flex-start; /* Align content to the left on smaller screens */
+            }
+    
+            .content-container h1 {
+                font-size: 2.5rem;
+                text-align: left; /* Ensure left alignment */
+            }
+    
+            .content-container h3 {
+                font-size: 1.8rem;
+                text-align: left; /* Ensure left alignment */
+            }
+    
+            .content-container ul {
+                padding-left: 15px;
+            }
+            
+        }
+    </style>
+    
+</head>
+
+<!-- Body -->
+<body>
+    <div class="new-header">
+        <div class="top-header" style="display: flex;">
+            <div id="triangle">
+                <p class="imp-date"><span style="color: red; font-weight: bold;">UPDATES</span></p>
+                <div class="arrow-right"></div>
+            </div>
+
+            <div class="wrapper">
+                <div class="marquee">
+                    <p style="width: 400px;"></p>
+                    <p>Submission open: Feb 10, 2025</p>
+                    <p style="width: 60px;"></p>
+                    <p style="color: white;">Paper Submission Deadline: March 15, 2024</p>
+                    <p style="width: 60px;"></p>
+                    <p style="color: white;">Acceptance Notification Deadline: May 1, 2025</p>
+                    <p style="width: 60px;"></p>
+                    <p>Conference Registration End: May 20, 2025</p>
+                    <p style="width: 60px;"></p>
+                    <p>Camera Ready Manuscript Deadline: Jun 1, 2025</p>
+                    <p style="width: 60px;"></p>
+                    <p>Conference Dates: Jun 13-14, 2025</p>
+                    <p style="width: 1000px;"></p>
+                </div>
+            </div>
+            <button type="button" class="btn-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="btn-collapse" style="display: none;">
+            <ul >
+                <li  class="li-extra"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="committee.html">Committee</a></li>
+                <li  class="active"><a href="cfp.html">Call for Papers</a></li>
+                <li><a href="submision.html">Registration</a></li>
+                <li><a href="author_details.html">Author Guidelines</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="head-main">
+            <div class="min-clg-logo">
+                <img src="images/nitj_logo.png" alt="" />
+                <div class="desc">
+                    <div class="min-clg-left" style="font-weight:700;">NITCOM-2025</div>
+                    <div class="min-clg-right">Department of Computer Science & Engineering
+                        Dr. B.R. Ambedkar National Institute of Technology, Jalandhar</div>
+                </div>
+            </div>
+            <div class="clg-logo">
+                <div class="clg-left" style="font-weight:700;">NITCOM-2025</div>
+                <img src="images/nitj_logo.png" alt="" />
+                <div class="clg-right">Department of Computer Science & Engineering
+                    Dr. BR. Ambedkar National Institute of Technology, Jalandhar</div>
+            </div>
+            <div class="only-img">
+                <img src="./images/Rectangle 47 (1).png" alt="" srcset="" height="60px">
+            </div>
+            <div class="collap">
+                <ul>
+                    <div id="left_oval">
+                        <li ><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active "><a href="cfp.html">Call for Papers</a></li>
+                        <li id="commit_padding"><a href="committee.html">Committee</a></li>
+                        <li id="reg_padding"><a href="submision.html">Registration </a></li>
+                        <li><a href="author_details.html">Author Guidelines</a></li>
+                        <li><a href="travel.html">Travel</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </div>
+                    <div id="oval_img"><img src="./images/Rectangle 47 (1).png" alt="Image Not loaded" srcset="" height="60px"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Center Content -->
+    <div class="content-container">
+    <div class="centered-div">
+        <h1 class="">Call for Papers</h1>
+        <h1 class="" style="font-size: 2rem;">International Conference on Next-Gen Intelligent Technologies in Computing and Communication (NITCOM-2025)</h3>
+        <p class="">June 13-14, 2025 | Hybrid Mode</p>
+        <p  class="centered-text"> <strong>Technically sponsored by Springer</strong></p>
+    </div>
+
+    
+    
+        
+        
+        
+        <p>The Department of Computer Science and Engineering (CSED) at Dr. B R Ambedkar National Institute of Technology (NIT), Jalandhar, invites submissions to the International Conference on Next-Gen Intelligent Technologies in Computing and Communication (NITCOM-2025). This conference aims to provide a collaborative platform for researchers, academicians, scientists, and industry professionals to share innovative contributions and advancements in cutting-edge technologies.</p>
+        <h3>Conference Tracks</h3>
+        <ul>
+            <li>Track 1: Next Generation Technology Trends</li>
+            <li>Track 2: Artificial Intelligence and Data Science</li>
+            <li>Track 3: Computing</li>
+            <li>Track 4: Security and Privacy</li>
+            <li>Track 5: Communication</li>
+        </ul>
+        <h3>Submission Guidelines</h3>
+        <ul>
+            <li>Papers must be written in English with a maximum length of 12 pages (inclusive of references).</li>
+            <li>All submissions should adhere to the Springer Computer Science Conference Proceedings template.</li>
+            <li>Papers must be submitted via the Microsoft CMT conference management system.</li>
+            <li>Only original, unpublished work will be considered. Simultaneous submissions to other conferences/journals are not permitted.</li>
+            <li>Submissions will undergo plagiarism checks using Turnitin.</li>
+        </ul>
+        <p><strong>Template Link:</strong> <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Springer Conference Proceedings Guidelines</a></p>
+        <h3>Publication</h3>
+        <p>Accepted papers will be published in SCOPUS-indexed proceedings.</p>
+        <h3>Important Dates</h3>
+        <ul class="importantdates">
+            <li>Submission Opens: January 15, 2025</li>
+            <li>Paper Submission Deadline: February 28, 2025</li>
+            <li>Acceptance Notification: March 15, 2025</li>
+            <li>Camera-Ready Manuscript Deadline: May 15, 2025</li>
+            <li>Conference Dates: June 13-14, 2025</li>
+        </ul>
+        <h3>Contact Information</h3>
+        <p>For queries, contact the organizing committee at <a href="mailto:nitcom-cs@nitj.ac.in">nitcom-cs@nitj.ac.in</a>.</p>
+        <p>For more information, visit <a href="http://www.nitj.ac.in">www.nitj.ac.in</a>.</p>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container" style="font-family:verdana; display: flex; justify-content: space-between; ">
+            <div class="col-md-6 footerleft" style="border-radius: 10px; border-style: solid; border-color: white; background: rgb(94, 94, 94); padding: 10px; font-weight: bold;">
+                <h3>Address</h3>
+                <p style="text-transform:none">Dr. B.R. Ambedkar National Institute of Technology Jalandhar</p>
+                <p class="phone">Jalandhar (Punjab) - 144 008</p>
+            </div>
+            <div class="col-md-3 footermiddle">
+                <h3>Email us at</h3>
+                <p><a href="mailto:nitcom@nitj.ac.in">nitcom.cs@nitj.ac.in</a></p>
+
+            </div>
+            <div class="col-md-3 footermiddle">
+                <h3>Call us at</h3>
+                <p class="phone"><b style="color: #da9d40;">Phone:</b> (+91) 8351976199</p>
+                <p class="phone"><b style="color:#da9d40;">Mobile:</b> (+91) 7078438786</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="footer-icon" style="display:flex;justify-content: center;padding-top: 2.5rem;">
+            <a href="https://www.youtube.com/@NITJOfficial" style="color:white; font-size:2.2rem;margin-right:2rem;"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/nitjofficial/" style="color:white; font-size:2.2rem;margin-right:2rem;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/nit-jalandhar/" style="color:white; font-size:2.2rem;margin-right:2rem;"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/NITJofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="color:white; font-size:2.2rem;margin-right:2rem;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/NITJofficial/" style="color:white; font-size:2.2rem;margin-right:2rem;"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+    <!-- //footer -->
+
+	<!-- copyright -->
+	<div class="wthree_copy_right">
+		<div class="container">
+			<!-- <p>© 2024 ICSCCC . All rights reserved | Design by <a href="">Ghanshyam/Hemant</a> </p> -->
+
+		</div>
+	</div>
+	<!-- //copyright -->
+
+	<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- //Default-JavaScript-File -->
+
+	<!-- js for portfolio lightbox -->
+	<script src="js/jQuery.lightninBox.js"></script>
+	<script type="text/javascript">
+		$(".lightninBox").lightninBox();
+	</script>
+	<!-- /js for portfolio lightbox -->
+
+	<!-- scrolling script -->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- //scrolling script -->
+
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+<script src="./js/toggle.js"></script>
+</body>
+<!-- //Body -->
+
+</html>
