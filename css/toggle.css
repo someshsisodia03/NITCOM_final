@@ -202,7 +202,7 @@ font-weight: 500;
     z-index: 3000;
  }
  .collap{
-    width: 100vw;
+    width: 100%;
  }
  #left_oval{
    display: flex;
@@ -342,7 +342,7 @@ text-decoration: underline;
 }
 
  }
- @media screen and (max-width: 788px) {
+ @media screen and (max-width: 1438px) {
    .wrapper {
       max-width: 95%;
     }
@@ -387,7 +387,7 @@ text-decoration: underline;
 
   }
 
-  @media screen and (min-width: 788px) {
+  @media screen and (min-width: 1440px) {
  .btn-collapse{
     display: none;
  }
